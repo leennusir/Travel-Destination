@@ -7,7 +7,7 @@ function App() {
   return (
     < >
     <Header/>
-      <Tours xx={Data} />
+      <Tours infoData={Data} />
       <Footer/>
       
     </>
