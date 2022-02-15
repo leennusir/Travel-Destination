@@ -13,7 +13,8 @@ const TourDetails = ({ data }) => {
               .map((list) => (
                 <div className="full-card" key={ list.id }>
                   <h2>Name: {list.name}</h2>
-                  <h4>Category: {list.price}</h4>
+                  <h4>Description: {list.info}</h4>
+                  <h4>Price: {list.price}</h4>
                 </div>
               ))}
         </div>
